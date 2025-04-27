@@ -406,6 +406,10 @@ body {
     border: 1px solid #ccc;
     box-shadow: 0px 10px 10px #ccc;
   }
+
+  .t1{
+    height: 200px;
+  }
   .project-container {
     display: flex;
     justify-content: center;
@@ -446,9 +450,6 @@ body {
     box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
-  .t1{
-    height: 200px;
-  }
   /*End Portfolio */
   
   button:hover{
