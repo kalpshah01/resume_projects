@@ -3,8 +3,12 @@
 <head>
   <meta charset="utf-8">
   <title>Web Developer ~ Kalp shah</title>
-  <!-- <link rel="stylesheet" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css"> -->
+
   <link rel="stylesheet" href="portp.css">
+  <!-- Put this in your HTML head -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
 </head>
 
 <body>
@@ -22,16 +26,16 @@
       </div>
     </div>
     <div class="navbar">
-      <div class="container">
+      <div class="container1">
         <!-- <h2><span>SK</span></h2> -->
          <img src="logo.jpg" alt="nologo" class="logo">
         <ul>
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Resume</a></li>
+          <li><a href="#aboutme">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#resume">Resume</a></li>
           <!-- <li><a href="#">Testemonials</a></li> -->
-          <li><a href="#">Portofolio</a></li>
+          <li><a href="#project">Projects</a></li>
           <li><a href="#">Contact Me</a></li>
         </ul>
       </div>
@@ -43,16 +47,21 @@
   <!-- Start Features -->
 
   <div class="features">
+    
+      
     <div class="container">
       <div class="feat">
-        <h2>Who Am I?</h2>
+        <!-- <section class="about-me who">
+          <div class="who-i-am"> -->
+        
+            <h2>Who Am I?</h2>
         <p>I am a passionate Web Developer with a strong foundation in HTML, CSS, PHP, and MySQL. I love creating simple and user-friendly websites, and I am eager to start my journey in the tech industry through an internship opportunity.</p>
       </div>
-      <div class="feat">
+      <div class="feat goals">
         <h2>Career Goals</h2>
         <p>My short-term goal is to get an internship where I can apply my knowledge, improve my skills with real-world projects, and prepare myself for a successful career in web development.</p>
       </div>
-      <div class="feat">
+      <div class="feat vision">
         <h2>Learning Journey</h2>
         <p>I have built my basics through self-learning, online tutorials, and hands-on practice. I am continuously improving my skills and ready to learn more by working in a real industry environment.</p>
       </div>
@@ -66,7 +75,7 @@
 
   <!-- Start About Me -->
 
-  <div class="about-me">
+  <div class="about-me" id="aboutme">
     <div class="containerB">
       <div class="image">
         <img src="IMG_20250219_081950.png" alt="Profile Photo">
@@ -84,7 +93,7 @@
 
   <!-- Start My Skills -->
 
-  <div class="my-skills">
+  <div class="my-skills" id="skills">
     <div class="container">
         <div class="skills">
             <h2>My Skills</h2>
@@ -133,7 +142,7 @@
   <!-- End My Skills -->
 
   <!-- Start Resume -->
-  <div class="resume">
+  <div class="resume" id="resume">
     <div class="container">
       <h2>Resume</h2>
       <p>A comprehensive overview of my education, work experience, and technical skills, highlighting <br> my journey as a web developer and my proficiency in key technologies. </p>
@@ -151,14 +160,19 @@
     <div class="container">
       <div class="main">
         <h2 class="he">My Education</h2>
-        <p class="paragrph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt Duis aute irure dolor in reprehenderit Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt Duis aute irure dolor in
-          reprehenderit .</p>
-        <p class="paragrph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt Duis aute irure dolor in reprehenderit .</p>
+        <p class="paragrph">
+          I have completed my Bachelor of Computer Applications (BCA) from Hemchandracharya North Gujarat University (HNGU) in 2025. 
+          During my studies, I built a strong foundation in web development, programming concepts, and database management.
+        </p>
+          <p class="paragrph">
+            I completed my 12th grade with 85% and 10th grade with 80%, demonstrating consistent academic performance. 
+            Alongside my formal education, I am continuously enhancing my skills through online courses, self-learning, and hands-on practice projects.
+          </p>
       </div>
       <div class="exp">
         <div class="certificate">
           <h3 class="he">Bachor of computer application</h3>
-          <span class="sp"><strong>SMT.C.S.S.SHAH BCA COOLLAGE ,DEESA</strong> / June 2022 / March 2025</span>
+          <span class="sp"><strong>SMT.C.S.S.SHAH BCA COOLLAGE ,DEESA</strong> <br> June 2022 to March 2025</span>
           <span>9.0 CGPA</span>
           <hr class="hr">
           
@@ -166,15 +180,15 @@
         <div class="exp">
             <div class="certificate">
               <h3 class="he">Higher Secondary (12th)</h3>
-              <span class="sp"><strong>Sardar patel School, Deesa</strong> / Year: 2022</span>
+              <span class="sp"><strong>Sardar patel School, Deesa</strong>  Year: 2022</span>
               <span>Percentage: 85%</span>
               <hr class="hr">
             </div>
           </div>
           <div class="exp">
             <div class="certificate">
-              <h3 class="he">Secondary (10th)</h3>
-              <span class="sp"><strong>Sardar patel School, Deesa</strong> / Year: 2020</span>
+              <h3 class="he">Secondary(10th)</h3>
+              <span class="sp"><strong>Sardar patel School, Deesa</strong>  Year: 2020</span>
               <span>Percentage: 80%</span>
               <hr class="hr">
             </div>
@@ -216,18 +230,18 @@
 
   <!-- Start Portfolio -->
 
-  <div class="portfolio">
+  <div class="portfolio" id="project">
     <div class="container">
       <h2 class="he">Projects</h2>
       <p class="paragrph">Here the my few Project with that i continuously update my skills</p>
-        <!-- <div class="our-work"> -->
+      <!-- <div class="our-work"> -->
         <div class="project-container">
           <!-- Project 1 content -->
       
         <div class="project-card">
           <!-- Project 1 content -->
       
-            <a href="https://your-live-food-delivery-project-link.com" target="_blank">
+            <a href="http://onlinefooddelivery.infy.uk/ronlinefood/index.php" target="_blank">
               <img src="food.jpg" alt="Online food Delivery"> <br> Online Food Delivery
             </a>
           </div>
@@ -269,8 +283,26 @@
         <p class="paragrph">
           <strong>Email:</strong> kalpshah962005@gmail.com <br>
           <strong>Phone:</strong> +91 9408417561
+          <br>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/kalp-shah-b2074227a/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/kalpshah01/" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://facebook.com/kalp.kalp.56863" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            
+            <a href="mailto:kalpshah962005@gmail.com" >
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+          
         </p>
       </div>
+      
       <form class="form">
         <label>Name *</label>
         <input type="text" name="Name" value="Your Name">
@@ -289,12 +321,7 @@
     <div class="container">
       <div class="footer-folat">
       <span class="he">Copyright &copy; 2025 KALP SHAH</span>
-      <ul>
-        <li><a href="https://www.linkedin.com/in/youssef-restom-83491621"><i class="fa fa-fw fa-linkedin"></i></a></li>
-        <li><a href="https://github.com/yrestom"><i class="fa fa-fw fa-github"></i></a></li>
-        <li><a href="https://twitter.com/yousefrestom"><i class="fa fa-fw fa-twitter"></i></a></li>
-        <li><a href="mailto:youssef.restom@gmail.com" title="My E-mail"><i class="fa fa-fw fa-envelope"></i></a></li>
-      </ul>
+     
       </div>
 <div class="footer-float">
       
