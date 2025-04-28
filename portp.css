@@ -2,6 +2,31 @@
 /**{
   box-sizing: border-box;
 }*/
+/* Import Professional Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap');
+
+/* Apply Fonts */
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  animation: fadeInText 1.2s ease-in;
+}
+
+p, a, li {
+  font-family: 'Roboto', sans-serif;
+  animation: fadeInText 1s ease-in;
+}
+
+/* Smooth Text Animation */
+@keyframes fadeInText {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 body {
     /*width: auto;*/
@@ -14,13 +39,15 @@ body {
     border: 5px;
     border-radius: 23px;
     margin-top: 6px;
-    margin-left: -110px;
+    margin-left: 20px;
   }
   .container {
-    width: 80%;
+    /* width: 80%; */
     /*Orginal Width 1170 */
-    margin: auto;
+    /* margin: auto; */
     /*background-color: #fff;*/
+    width: 90%;
+    margin-left: 39px
   }
   
   .containerB {
@@ -50,6 +77,7 @@ body {
     background-size: cover;
   }
   
+  
   .header .slider .intro {
     padding-top: 250px;
     text-align: center;
@@ -57,7 +85,8 @@ body {
   }
   
   .header .slider .intro h2 {
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin: -6px 111px;
     font-size: 50px;
     text-shadow: 5px 5px 5px #252f31;
     /*width: 650px;*/
@@ -104,6 +133,7 @@ body {
   .header .navbar ul li {
     float: left;
     padding: 10px;
+    margin-right: 10px;
   }
   
   .header .navbar ul li a {
@@ -214,6 +244,35 @@ body {
     width: 84%;
     margin-left: 2%;
   }
+
+  .about-me {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between; /* spaces items left, center, right */
+    align-items: flex-start;
+    padding: 40px;
+    gap: 20px; /* optional, space between columns */
+  }
+  
+  .about-me > div {
+    flex: 1; /* each child div takes equal width */
+  }
+  
+  .about-me .image img {
+    width: 100%;
+    border-radius: 12px;
+  }
+  
+  .about-me h2 {
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .about-me p {
+    color: #777;
+    line-height: 1.6;
+  }
+  
   /* End About Me */
   
   
@@ -406,10 +465,10 @@ body {
     border: 1px solid #ccc;
     box-shadow: 0px 10px 10px #ccc;
   }
-
   .t1{
     height: 200px;
   }
+  /*End Portfolio */
   .project-container {
     display: flex;
     justify-content: center;
@@ -450,8 +509,26 @@ body {
     box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
-  /*End Portfolio */
+.social-icons {
+  margin-top: 30px;
+    margin-left: 40px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 28px;
+  color: darkgray;
+  transition: color 0.3s, transform 0.3s;
   
+}
+
+.social-icons a:hover {
+  color: #0077b5; /* LinkedIn blue for hover */
+  transform: scale(1.2);
+}
+
+
   button:hover{
 background-color: green;
 color:white;
